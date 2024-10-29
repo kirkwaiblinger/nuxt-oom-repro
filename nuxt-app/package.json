@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.632.0",
+    "nuxt": "^3.13.2",
+    "some-package": "*",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "packageManager": "yarn@4.5.1",
+  "resolutions": {
+  }
+}
